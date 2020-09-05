@@ -2,8 +2,8 @@ const DEV_URL = 'http://localhost:8399'
 const DEPLOY_URL = 'https://i3b103.p.ssafy.io'
 
 // 개발 <-> 배포 baseUrl
-// export const API_BASE_URL = DEV_URL
-export const API_BASE_URL = DEPLOY_URL
+export const API_BASE_URL = DEV_URL
+// export const API_BASE_URL = DEPLOY_URL
 
 export const ACCESS_TOKEN_STRING = 'accessToken';
 export const REFRESH_TOKEN_STRING = 'refreshToken';
