@@ -18,7 +18,7 @@ public class CommonController {
 	@Autowired
 	private FileUtils fileUtil;
 
-	private final String fileBaseUrl = "C:\\Users\\multicampus\\Desktop\\img";
+	private final String fileBaseUrl = "C:\\Users\\multicampus\\pjt_sub2\\img";
 
 	@GetMapping(value = "/image/{type}/{path}", produces = MediaType.IMAGE_JPEG_VALUE)
 	@ApiOperation("이미지 출력 <img src='http://localhost:8399/api/image/(type)/{Img경로}'>")

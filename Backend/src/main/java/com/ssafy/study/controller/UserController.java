@@ -57,9 +57,8 @@ public class UserController {
 	@Autowired
 	private NotiService notiservice;
 
-	private final String fileBaseUrl = "/home/ubuntu/app/img/user";
-	// private final String fileBaseUrl =
-	// "C:\\Users\\multicampus\\Desktop\\img\\user";
+	// private final String fileBaseUrl = "/home/ubuntu/app/img/user";
+	private final String fileBaseUrl = "C:\\Users\\multicampus\\pjt_sub2\\img\\user";
 	private final String DEFAULT_USER_PROFILE = "\\userDefault.png";
 
 	@PostMapping("/signup")
